@@ -1,0 +1,43 @@
+--drop table "fetch".users; 
+create table "fetch".users (
+user_id	text,
+active text,	
+createdDate text,	
+lastLogin text,	
+role text,	
+signUpSource text,	
+state text
+);
+--command " "\\copy \"fetch\".users (_id, active, createddate, lastlogin, role, signupsource, state) FROM '/Users/nikitagoldovsky/Desktop/users.csv' DELIMITER ',' CSV HEADER QUOTE '\"' ESCAPE '''';""
+
+create table "fetch".brands (
+_id text,	
+barcode text,
+category text,
+categoryCode text,
+cpg text,
+name text,
+topBrand text
+);
+
+create table "fetch".receipts
+(
+_id text,	
+bonusPointsEarned text,
+bonusPointsEarnedReason text,	
+createDate text,
+dateScanned text,	
+finishedDate text,	
+modifyDate text,
+pointsAwardedDate text,	
+pointsEarned text,	
+purchaseDate text,	
+purchasedItemCount text,	
+rewardsReceiptItemList text,	
+rewardsReceiptStatus text,	
+totalSpent text,	
+userId text
+);
+
+--command " "\\copy \"fetch\".receipts (_id, bonuspointsearned, bonuspointsearnedreason, createdate, datescanned, finisheddate, modifydate, pointsawardeddate, pointsearned, purchasedate, purchaseditemcount, rewardsreceiptitemlist, rewardsreceiptstatus, totalspent, userid) FROM '/Users/nikitagoldovsky/Desktop/receipts.csv' DELIMITER ',' CSV HEADER QUOTE '\"' ESCAPE '''';""
+
