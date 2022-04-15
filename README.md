@@ -1,4 +1,4 @@
-#Fetch Rewards Coding Exercise - Analytics Engineer
+# Fetch Rewards Coding Exercise - Analytics Engineer
 https://fetch-hiring.s3.amazonaws.com/analytics-engineer/ineeddata-data-modeling/data-modeling.html
 
 ## First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
