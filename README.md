@@ -1,3 +1,6 @@
+#Fetch Rewards Coding Exercise - Analytics Engineer
+https://fetch-hiring.s3.amazonaws.com/analytics-engineer/ineeddata-data-modeling/data-modeling.html
+
 ## First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 
 The three datasets that were provided with the assignment were "Receipts", "Users", and "Brands". 
